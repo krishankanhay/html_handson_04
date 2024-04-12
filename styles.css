@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.our{
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home{
+    width: 50%;
+    background-color: #a5d3e4;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 173px;
+    text-indent: -110px;
+}
+
+.main_home{
+    display: flex;
+    justify-content: center;
+}
+
+
+.lorem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: aquamarine;
+}
+
+.lorem_i{
+    width: 30%;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 0px 12px;
+}
+
+.our2{
+    background-image: linear-gradient(to left, red, yellow, red);
+    padding-bottom: 18px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.four{
+    background-image: radial-gradient(#1e3df3 30%,green);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 75px 0px;
+}
+
+.raj{
+    width: 15%;
+    background-color: yellow;
+    border: 2px solid #743400;
+    border-radius: 7px;
+    color: #743400;
+    line-height: 30px;
+    text-decoration-line: underline;
+    /* text-indent: 10%; */
+    text-align: center;
+    font-size: larger;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto 76px;
+    grid-template-rows: 30px auto 97px 19px;
+    gap: 8px;
+    border: 1px solid #a5d3e4;
+}
+
+.box{
+    color: white;
+    border: 1px solid #a5d3e4;
+}
+
+.box1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+    background-color: #e83948;
+}
+
+.box2{
+    background-color: #58d16a;
+    text-align: center;
+}
+
+.box3{
+    background-color: #2584f7;
+}
+
+.box4{
+    background-color: #4948ea;
+}
+
+.box5{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    text-decoration-line: underline;
+    list-style-position: inside;
+    background-color: black;
+    padding: 0px 3px;
+}
+
+.box6{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: orange;
+}
+
+.box7{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+    background-color: #51ccce;
+    color: black;
+}
